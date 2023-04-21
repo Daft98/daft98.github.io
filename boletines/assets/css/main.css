@@ -1,0 +1,160 @@
+html {
+    font-family: 'Nunito', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #d500f9;
+}
+
+img{
+    max-width: 100%;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+a:active{
+color: antiquewhite;
+}
+
+.title {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.container {
+    background: #da4453;
+    background: -webkit-linear-gradient(to right, #da4453, #89216b);
+    background: linear-gradient(to right, #da4453, #89216b);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    max-width: 960px;
+    width: 100%;
+    height: 80vh;
+    background-color: white;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 4px;
+    position: relative;
+    overflow: scroll;
+}
+
+.content {
+    padding: 1em;
+}
+
+td {
+    display: block;
+    width: 100%
+}
+
+td:nth-of-type(1) {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #642b73;
+}
+
+th {
+    display: none;
+}
+
+.actions {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+}
+
+.close {
+    height: 40px;
+    width: 40px;
+    color: white;
+    border-radius: 50%;
+    background-color: #642b73;
+    display: inline-block;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    font-weight: 300;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paragraph {
+    line-height: 1.8em;
+    font-weight: 300;
+}
+
+.fa-star {
+    color: #ffc400;
+}
+
+.table {
+    width: 100%;
+    border-spacing: 0;
+}
+
+.table td,
+.table th {
+    padding: 1em;
+    text-align: left;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f3e5f5;
+}
+
+.title-item {
+    font-size: 2em;
+    border-bottom: solid 2px #c6426e;
+    padding-bottom: 1em;
+}
+
+.addres {
+    font-weight: bold;
+    color: #642b73;
+    font-size: 1.2em;
+    margin-top: 1em;
+    display: inline-block;
+}
+
+.main-image {
+    float: left;
+    margin-right: 1em;
+    height: 250px;
+}
+
+.position {
+    background-color: #c6426e;
+    color: white;
+    padding: 0.5em;
+    border-radius: 4px;
+    margin-right: 0.5em;
+}
+
+@media (min-width:900px) {
+    td {
+        width: auto;
+        display: table-cell;
+    }
+    th {
+        display: table-cell;
+    }
+    td:nth-of-type(){
+        font-size: 1em;
+    }
+    .content{
+        padding: 1.8em;
+    }
+}
+
+@media (main-height:550px) {
+    .content {
+        height: 500px;
+    }
+}
