@@ -180,6 +180,7 @@ section {
 
     .icons {
         padding: 0 3%;
+        transition: .2s;
     }
 
     .scroll-down {
@@ -245,7 +246,7 @@ section {
     }
 }
 
-@media(max-width: 990px) {   
+@media(max-width: 990px) {
     #menu-icon {
         display: block;
     }
@@ -268,17 +269,17 @@ section {
     .navlist a {
         margin-left: 0;
         display: block;
-        margin: 7px 0;
+        margin: 10px 0;
     }
 
     .navlist.open {
         right: 0;
     }
+}
 
-    @media(max-width: 680px) {
-        .hero-img img {
-            width: 100%;
-            height: auto;
-        }
+@media(max-width: 680px) {
+    .hero-img img {
+        width: 100%;
+        height: auto;
     }
 }
