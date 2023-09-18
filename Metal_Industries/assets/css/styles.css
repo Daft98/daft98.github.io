@@ -149,14 +149,18 @@ img {
   }
 }
 
-.nav__text{
-  text-align: center;
+.nav__text {
   display: inline-block;
-  margin-right: 7rem;
+  margin-right: 6rem;
+  color: black;
+  font-size: 1.5rem;
+  font-size: 1.2rem;
+  color: var(--first-color);
+  text-align: center;
 }
 
 .nav__title {
-  font-size: 1.1rem;  
+  font-size: 1.1rem;
 }
 
 .nav__title-color {
@@ -265,7 +269,7 @@ img {
   font-size: 1.2rem;
 }
 
-.bx-phone-call{
+.bx-phone-call {
   width: max-content;
   margin-left: .5rem;
   font-size: 1.7rem;
@@ -281,41 +285,41 @@ img {
   text-align: center;
 }
 
-.D1{
+.D1 {
   background-color: #999999;
 }
 
-.bx-buildings{
+.bx-buildings {
   width: max-content;
   font-size: 5rem;
   color: white;
 }
 
-.D2{
+.D2 {
   background-color: #808080;
 }
 
-.bx-bot{
+.bx-bot {
   width: max-content;
   font-size: 5rem;
   color: white;
 }
 
-.D3{
+.D3 {
   background-color: #404040;
 }
 
-.bxs-hand{
+.bxs-hand {
   width: max-content;
   font-size: 5rem;
   color: white;
 }
 
-.D4{
+.D4 {
   background-color: #000;
 }
 
-.bx-bulb{
+.bx-bulb {
   width: max-content;
   font-size: 5rem;
   color: white;
@@ -344,6 +348,8 @@ img {
 
 .products__subtitle {
   margin-bottom: var(--mb-1);
+  text-align: center;
+  color: #404040;
 }
 
 .container-carousel {
@@ -385,7 +391,7 @@ img {
   font-weight: 600;
   cursor: pointer;
   color: #ffffff81;
-  transform: translate(0,-50%);
+  transform: translate(0, -50%);
   transition: .5s ease;
   user-select: none;
 }
@@ -402,12 +408,6 @@ img {
 
 .btn-right {
   right: 10px;
-}
-
-/* ===== UBICATION =====*/
-.ubi__container {
-  row-gap: 2rem;
-  text-align: center;
 }
 
 /* ===== CONTACT =====*/
@@ -429,7 +429,7 @@ img {
   font-size: var(--normal-font-size);
   cursor: pointer;
   margin-left: auto;
-  margin-bottom: 18rem;
+  margin-bottom: var(--mb-2);
 }
 
 .button1 {
@@ -444,6 +444,42 @@ img {
 
 .button1:hover {
   box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
+}
+
+/* ===== UBICATION =====*/
+.ubi__container {
+  row-gap: 2rem;
+  text-align: center;
+}
+
+.iCo {
+  display: flex;
+}
+
+.ubi__social {
+  display: flex;
+  padding-bottom: 7.5rem;
+  flex-direction: column;
+  align-self: flex-end;
+}
+
+.ubi__social-icon {
+  width: max-content;
+  margin-bottom: 0;
+  margin-left: 2rem;
+  margin-right: 1.5rem;
+  font-size: 2.5rem;
+  color: var(--second-color);
+}
+
+.text_iCo {
+  text-align: center;
+  margin-top: .55rem;
+  display: inline-block;
+  color: black;
+  font-size: 1.3rem;
+  color: var(--first-color);
+  text-align: center;
 }
 
 /* ===== FOOTER =====*/
