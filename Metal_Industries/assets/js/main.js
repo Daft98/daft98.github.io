@@ -108,5 +108,5 @@ const sr = ScrollReveal({
 
 sr.reveal('.home__data, .service__img, .products__subtitle, .products__text', {});
 sr.reveal('.home__img, .service__subtitle, .service__text, .products__img', { delay: 400 });
-sr.reveal('.home__social-icon, .map, .container-carousel', { interval: 200 });
+sr.reveal('.home__social-icon, .map, .container-carousel, .iCo', { interval: 200 });
 sr.reveal('.products__data, .contact__input', { interval: 200 }); 
