@@ -301,7 +301,7 @@ img {
   background-color: #808080;
 }
 
-.bx-bot {
+.bxs-hand {
   width: max-content;
   font-size: 5rem;
   color: white;
@@ -311,7 +311,7 @@ img {
   background-color: #404040;
 }
 
-.bxs-hand {
+.bx-bulb {
   width: max-content;
   font-size: 5rem;
   color: white;
@@ -321,7 +321,7 @@ img {
   background-color: #000;
 }
 
-.bx-bulb {
+.bx-microchip {
   width: max-content;
   font-size: 5rem;
   color: white;
@@ -331,8 +331,20 @@ img {
   background-color: #808080;
 }
 
+.bx-bot {
+  width: max-content;
+  font-size: 5rem;
+  color: white;
+}
+
 .D6 {
   background-color: #999999;
+}
+
+.bx-run {
+  width: max-content;
+  font-size: 5rem;
+  color: white;
 }
 
 .service__subtitle {
