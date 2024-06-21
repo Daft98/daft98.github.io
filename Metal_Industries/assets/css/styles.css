@@ -364,13 +364,13 @@ img {
 }
 
 .carruseles {
-  width: 1800%;
+  width: 1700%;
   height: 100%;
   display: flex;
 }
 
 .slider-section {
-  width: calc(100% / 18);
+  width: calc(100% / 17);
   height: 100%;
 }
 
